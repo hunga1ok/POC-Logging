@@ -47,6 +47,9 @@ dependencies {
     implementation("com.jakewharton.timber:timber:5.0.1")
     implementation("org.slf4j:slf4j-api:2.0.7")
     implementation("com.github.tony19:logback-android:3.0.0")
+
+    implementation("com.github.bastienpaulfr:Treessence:1.1.2")
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

@@ -28,6 +28,22 @@ class SelectModeActivity : AppCompatActivity() {
                     }
                 )
             }
+
+            btnTimberLogback3.setOnClickListener {
+                startActivity(
+                    Intent(this@SelectModeActivity, MainActivity::class.java).apply {
+                        putExtra(DATA, LoggingType.TIMBER_PLUGIN)
+                    }
+                )
+            }
+
+            btnTimberLogback4.setOnClickListener {
+                startActivity(
+                    Intent(this@SelectModeActivity, MainActivity::class.java).apply {
+                        putExtra(DATA, LoggingType.TIMBER_WITHOUT_EXT)
+                    }
+                )
+            }
         }
     }
 

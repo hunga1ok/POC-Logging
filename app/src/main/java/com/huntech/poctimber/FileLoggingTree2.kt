@@ -19,7 +19,7 @@ import timber.log.Timber
 
 class FileLoggingTree2(context: Context) : Timber.DebugTree() {
     init {
-        val logDirectory: String = context.filesDir.path + "/logs"
+        val logDirectory: String = context.getExternalFilesDir("logbackInfile")?.path.orEmpty()
         configureLogger(logDirectory)
     }
 

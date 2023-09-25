@@ -27,4 +27,26 @@
         android:text="use timber and Logback Android config in code"
         />
 
+    <Button
+        android:id="@+id/btnTimberLogback3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnTimberLogback2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:text="use timber extension"
+        />
+
+    <Button
+        android:id="@+id/btnTimberLogback4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnTimberLogback3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:text="use timber extension"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -46,10 +46,10 @@ class MainActivity : AppCompatActivity() {
                     .fileDir("DirFile")
                     .fileName("file%g.log")
                     .tag("CustomTag")
-                    .sizeLimit(1000_000_000) // ~1MB
-                    .fileLimit(3) // create limit 3 file
+                    .sizeLimit(1000_000) // ~1MB
+                    .fileLimit(5) // create limit 3 file
                     .levelLog(Level.ALL) // receive all log
-                    .isAppendable(true) // true: append log to file, false: create new file
+                    .isAppendable(false) // true: append log to file, false: create new file
                     .build()
                 Timber.plant(t)
 

@@ -79,7 +79,7 @@ class FileLoggingCustom private constructor(
     }
     data class Builder(
         val context: Context,
-        private var fileDir: String = "LogDir",
+        private var fileDir: String = "LoggingNoExt",
         private var fileName: String = "File%g.log",
         private var sizeLimit: Int = 1000_000,
         private var fileLimitCount: Int = 3,
